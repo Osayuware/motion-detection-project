@@ -1,5 +1,5 @@
 while True:
-    if input.rotation(Rotation.PITCH) > 150:
+    if input.rotation(Rotation.PITCH) > 150 and input.rotation(Rotation.ROLL) > 150 :
         light.set_all(color.rgb(255,0,0))
     else:
         "Sound Level" + input.sound_level()
